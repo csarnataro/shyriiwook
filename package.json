@@ -1,0 +1,24 @@
+{
+  "name": "shyriiwook-translator",
+  "version": "1.0.0",
+  "description": "A simple JS library to translate human language to Shyriiwook, the native language of the Wookiees.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint **/*.js"
+  },
+  "keywords": [
+    "JavaScript",
+    "Wookiee",
+    "Shyriiwook"
+  ],
+  "files": [
+    "src/index.js"
+  ],
+  "author": "Christian Sarnataro <christian.sarnataro@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.12.1",
+    "jest": "^26.6.1"
+  }
+}
