@@ -1,0 +1,22 @@
+// https://github.com/hodgef/ts-library-boilerplate-basic
+{
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "outDir": "./dist",
+    "module": "esnext",
+    "target": "es5",
+    "allowJs": true,
+    "sourceMap": true,
+    "declaration": false,
+    "emitDeclarationOnly": false,
+    "suppressImplicitAnyIndexErrors": true,
+    "lib": ["es2018", "dom"],
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    // temporarily loose constraints on js
+    "strict": true,
+    "checkJs": true,
+  },
+  "include": ["src"],
+  "exclude": ["src/**/tests", "src/**/*.js"],
+}

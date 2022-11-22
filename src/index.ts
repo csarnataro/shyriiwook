@@ -7,7 +7,7 @@
  * as well as uppercase characters
  *
  */
-var lookup = {
+const lookup = {
   a: "ra",
   b: "rh",
   c: "oa",
@@ -62,7 +62,7 @@ var lookup = {
   Z: "Uf",
 };
 
-function translate(data) {
+function translate(data: string): string {
   let translatedData = "";
   for (let i = 0; i < data.length; i += 1) {
     const char = data[i];
@@ -87,4 +87,4 @@ function translate(data) {
   return translatedData;
 }
 
-module.exports = translate;
+export default translate;
